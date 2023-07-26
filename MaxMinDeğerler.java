@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 
 
-public class MaxMinDeğerler {
+public class MaxMinDegerler {
     public static void main(String[] args) throws Exception {
         int [] list = {56, 34, 1, 8, 101, -2, -33};
         // -33 -2 1 8 34 56 101
