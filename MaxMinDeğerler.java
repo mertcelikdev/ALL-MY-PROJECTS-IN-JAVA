@@ -17,7 +17,7 @@ public class MaxMinDegerler {
         for (int i : list) {
             if (i < value ) {
                 minClosed = i;
-                break;
+                
             }
         }
 
