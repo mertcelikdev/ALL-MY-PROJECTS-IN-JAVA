@@ -2,14 +2,14 @@ public class TranspozeBullma {
 
 
     public static void main(String[] args) {
-        // 2x3 boyutunda bir matris
+        // 3x3 boyutunda bir matris
         int[][] matris = {
                 {1, 2, 3},
                 {4, 5, 6},
                 {7, 8, 9}
         };
 
-        // Transpoz matrisi için yeni bir 3x2 matris oluşturuyoruz
+        // Transpoz matrisi için yeni bir 3x3( aslında tersi oldu ama kare matris verdiğim için bir şey değişmemiş gibi gözüküyor) matris oluşturuyoruz
         int[][] transpozMatris = new int[matris[0].length][matris.length];
 
         // Matrisin transpozunu hesaplıyoruz
