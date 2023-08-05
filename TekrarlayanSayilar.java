@@ -2,7 +2,7 @@ import java.util.Arrays;
 public class TekrarlayanSayilar {
 
     public static void main(String[] args) {
-        int[] numbers = {21,31,43,24,34,22,24,54,76,-54,56,34,0,234};
+        int[] numbers = {21,31,43,24,34,22,24,54,76,-54,56,34,0,234,49,23,1202};
         System.out.println("Dizi : " + Arrays.toString(numbers));
 
         Arrays.sort(numbers);
@@ -14,7 +14,7 @@ public class TekrarlayanSayilar {
                 int evenNumber = numbers[i];
                 if(evenNumber % 2 == 0){
                     counter++;
-                    System.out.print(+evenNumber + " " );
+                    System.out.print(evenNumber + " " );
                 }
             }
         }
